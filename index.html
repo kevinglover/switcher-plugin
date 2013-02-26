@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Switcher</title>
+
+		<link href="css/reset.css" type="text/css" rel="stylesheet" />
+		
+		<link href="css/switcher-style.css" type="text/css" rel="stylesheet" />
+		
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/js.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+				$(":checkbox").switcher();
+			});
+		</script>
+	</head>
+
+	<body>
+		<p>Before all this stuff</p>
+		<label for="option1">Label</label> <input class="switch-option" type="checkbox" id="option1" checked="checked" />
+		<p>After all this stuff</p>
+	</body>
+</html>
